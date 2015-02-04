@@ -1,7 +1,7 @@
 class TodoItem
 
   def self.all
-    ["feed the cat",
+    @all ||= ["feed the cat",
      "buy eggs",
      "watch WWDC videos",
      "rule the Web",
